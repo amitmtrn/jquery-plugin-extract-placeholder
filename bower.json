@@ -1,0 +1,21 @@
+{
+  "name": "extract-placeholder",
+  "version": "0.0.1",
+  "authors": [
+    "amit <amit@mtrn.co.il>"
+  ],
+  "description": "jquery plugin that allow you to extract placeholder from input on focus",
+  "main": "extract-placeholder.js",
+  "keywords": [
+    "jquery",
+    "plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
