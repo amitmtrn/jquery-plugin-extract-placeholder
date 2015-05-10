@@ -14,7 +14,7 @@ jQuery(function($) {
 
     this.focus(function() {
       var placeholder = $(this).attr('placeholder');
-      var desc = '<' + settings.addClass + ' class="' + settings.addClass + ' ' + focusClass + '">' + placeholder + '</' + settings.addClass + '>';
+      var desc = '<' + settings.tagName + ' class="' + settings.addClass + ' ' + focusClass + '">' + placeholder + '</' + settings.tagName + '>';
       $(this).before(desc);
     });
 
